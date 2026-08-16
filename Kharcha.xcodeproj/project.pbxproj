@@ -18,15 +18,17 @@
 		3CE32EAE372A9AF64932744C /* FitnessWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F586E3717B3D17DE740114 /* FitnessWidget.swift */; };
 		3DA96B37289383C0DA257DB5 /* ExpenseAuditLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8BB19549C6F3175ABB24A /* ExpenseAuditLog.swift */; };
 		3F3F93D488CA389A2DD0A840 /* CategoryManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9595ED3B278AB91C9BCB0 /* CategoryManagerView.swift */; };
+		400FFD66B8355EC0B58FCFA5 /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354C4D5E52FB0BD1E635722C /* BudgetTests.swift */; };
 		4257F01604C74007CAFD58A9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DCE9CE814A651FE632D4C /* SettingsView.swift */; };
-		449A3FD627B1926DF5EDA663 /* WebhookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C0D89906F609D0C57D578 /* WebhookService.swift */; };
 		45B329BD7C5C9402EF663847 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E67A1FF9A8AE0479A36DD7 /* Expense.swift */; };
 		45CA206D9D46F84E0B2B00DC /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0646E3278206A485CF067 /* FitnessView.swift */; };
 		4C1BF6BEA5E0EE754FF3A4B8 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF85811F3DBF2D5F8A8BFD7 /* HistoryView.swift */; };
 		4DCBECA7578E2A4326A39D28 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719139BD4B71A30C4FEF26EE /* BudgetView.swift */; };
 		58CBFEA6116633F1BCA29821 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F13F471A3C9C457629F7A7 /* LocationManager.swift */; };
+		606A6457ADAB4470E8FCFCF2 /* PhoneValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DE9720E3C0F3EB1F4F22E8 /* PhoneValidatorTests.swift */; };
 		655A9377CBDACC482EA4EB14 /* WaterIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3F5157F272DAD6C49811E /* WaterIntake.swift */; };
 		6A36A44F3312262303B847DC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EF7DD6D9DA203100B0971 /* Category.swift */; };
+		6C122278F146C384361FC5A3 /* BackupManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89370274B33CAF13554B434 /* BackupManagerTests.swift */; };
 		6E54FA4CD761E04C82944246 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9843CE8856A2F5B79228B1D /* DashboardView.swift */; };
 		8006BFAEAD7A9C207E0978FC /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E29602AD01746F320CA739 /* CSVExporter.swift */; };
 		80F1933CFD1DF95DB50BA8E2 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F634E3381EBA4A6083D27 /* TimetableView.swift */; };
@@ -85,11 +87,11 @@
 		010CFFF88A7594D0F1AD3755 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
 		1BE0646E3278206A485CF067 /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		1D666CCCBC840ADA5EA6348F /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
-		200C0D89906F609D0C57D578 /* WebhookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookService.swift; sourceTree = "<group>"; };
 		2768EC0C9E83B3051E4D9887 /* WidgetDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataManager.swift; sourceTree = "<group>"; };
 		2C4B459E2AB668734680F7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0616F6D3928D306E375104 /* KharchaWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KharchaWidgets.entitlements; sourceTree = "<group>"; };
 		314760C23EA428E0E423FC38 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		354C4D5E52FB0BD1E635722C /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
 		3B3F2713AA4F240F9AA9F198 /* ExpenseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidget.swift; sourceTree = "<group>"; };
 		3CB9595ED3B278AB91C9BCB0 /* CategoryManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagerView.swift; sourceTree = "<group>"; };
 		3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = KharchaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,7 @@
 		6ED74BF49F49BF7A2DCD7C55 /* LogExpenseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogExpenseIntent.swift; sourceTree = "<group>"; };
 		6EF87E603E7A6E8559474BDE /* EditProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileSheet.swift; sourceTree = "<group>"; };
 		719139BD4B71A30C4FEF26EE /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		79DE9720E3C0F3EB1F4F22E8 /* PhoneValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidatorTests.swift; sourceTree = "<group>"; };
 		7A3E3D5E5881254849794460 /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
 		7D6C34D841D264C7E5021FE2 /* DesiMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiMessages.swift; sourceTree = "<group>"; };
 		82202E5095E40A6F67FE0B67 /* Kharcha.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Kharcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +111,7 @@
 		8AA9839EE5BF24C19EAAC0E6 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		8CB3FFD0DA1490E849DE5405 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		94479C8C6E01A22A6320CBCD /* KharchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchaApp.swift; sourceTree = "<group>"; };
+		A89370274B33CAF13554B434 /* BackupManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupManagerTests.swift; sourceTree = "<group>"; };
 		ABA3F5157F272DAD6C49811E /* WaterIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntake.swift; sourceTree = "<group>"; };
 		AEF85811F3DBF2D5F8A8BFD7 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		B0E29602AD01746F320CA739 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
@@ -180,7 +184,6 @@
 				B0E29602AD01746F320CA739 /* CSVExporter.swift */,
 				8AA9839EE5BF24C19EAAC0E6 /* HealthKitManager.swift */,
 				D4F13F471A3C9C457629F7A7 /* LocationManager.swift */,
-				200C0D89906F609D0C57D578 /* WebhookService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -224,6 +227,9 @@
 		59225544B17F04F1176E2808 /* KharchaTests */ = {
 			isa = PBXGroup;
 			children = (
+				A89370274B33CAF13554B434 /* BackupManagerTests.swift */,
+				354C4D5E52FB0BD1E635722C /* BudgetTests.swift */,
+				79DE9720E3C0F3EB1F4F22E8 /* PhoneValidatorTests.swift */,
 			);
 			path = KharchaTests;
 			sourceTree = "<group>";
@@ -478,7 +484,6 @@
 				80F1933CFD1DF95DB50BA8E2 /* TimetableView.swift in Sources */,
 				D08088063AB753BFDC48B673 /* UserProfile.swift in Sources */,
 				655A9377CBDACC482EA4EB14 /* WaterIntake.swift in Sources */,
-				449A3FD627B1926DF5EDA663 /* WebhookService.swift in Sources */,
 				DC61641271CE86356D4BB1D9 /* WidgetDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +503,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C122278F146C384361FC5A3 /* BackupManagerTests.swift in Sources */,
+				400FFD66B8355EC0B58FCFA5 /* BudgetTests.swift in Sources */,
+				606A6457ADAB4470E8FCFCF2 /* PhoneValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -115,16 +115,6 @@ struct OnboardingView: View {
         ExpenseCategory.seedDefaults(in: modelContext)
         
         try? modelContext.save()
-        
-        // Fire webhook (async, fire-and-forget)
-        WebhookService.shared.sendRegistration(
-            name: name,
-            phone: PhoneValidator.format(phone),
-            age: age,
-            gender: gender,
-            college: college,
-            budget: monthlyBudget
-        )
     }
 }
 
