@@ -6,7 +6,22 @@
 [![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange.svg?style=flat&logo=swift)](https://swift.org)
 [![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-purple.svg?style=flat&logo=swift)](https://developer.apple.com/xcode/swiftui/)
 [![SwiftData](https://img.shields.io/badge/Storage-SwiftData-green.svg?style=flat)](https://developer.apple.com/documentation/swiftdata)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20On--Device-success.svg)](PRIVACY.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+## 📱 App Preview
+
+<p align="center">
+  <img src="docs/screenshots/widgets.jpg" width="85%" alt="Kharcha Live Dashboard & Widgets" />
+</p>
+
+### 📸 In-App Experience
+
+| 📊 Home & Analytics | ⚡ Quick Add Expense | 🏃‍♂️ Apple Health Fitness | 📜 History & Geotags |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/dashboard.png" width="100%" alt="Home Dashboard" /> | <img src="docs/screenshots/quickadd.png" width="100%" alt="Quick Add" /> | <img src="docs/screenshots/fitness.png" width="100%" alt="Fitness & Health" /> | <img src="docs/screenshots/history.png" width="100%" alt="History" /> |
 
 ---
 
@@ -14,7 +29,7 @@
 
 **Kharcha** is designed specifically for college students and young professionals to manage daily finances, stay on top of health goals, and organize academic routines in one unified, sleek native iOS experience.
 
-Built 100% in **SwiftUI** and **SwiftData**, Kharcha operates completely offline with zero tracking, cloud lock-in, or external servers.
+Built 100% in **SwiftUI** and **SwiftData**, Kharcha operates completely offline with zero tracking, cloud lock-in, or external telemetry.
 
 ---
 
@@ -77,6 +92,7 @@ Built 100% in **SwiftUI** and **SwiftData**, Kharcha operates completely offline
 | **Widgets** | WidgetKit & App Groups |
 | **Health & Fitness** | HealthKit (`HKHealthStore`, `HKStatisticsQuery`) |
 | **Location & Maps** | CoreLocation & MapKit |
+| **Unit Testing** | XCTest (`BudgetTests`, `PhoneValidatorTests`, `BackupManagerTests`) |
 | **Project Spec** | XcodeGen (`project.yml`) |
 
 ---
@@ -97,8 +113,8 @@ brew install xcodegen
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Kharcha.git
-   cd Kharcha
+   git clone https://github.com/D0pExD/Kharcha-APP.git
+   cd Kharcha-APP
    ```
 
 2. **Generate the Xcode Project**:
@@ -112,6 +128,7 @@ brew install xcodegen
    ```
    - Select your connected iPhone or Simulator.
    - Press **`⌘ + R`** to build and run!
+   - Press **`⌘ + U`** to run the unit test suite.
 
 ---
 
@@ -126,6 +143,12 @@ brew install xcodegen
 5. Go to **Settings ➔ Accessibility ➔ Touch ➔ Back Tap**.
 6. Select **Double Tap** or **Triple Tap** and assign **`Log Kharcha`**.
 7. Tap the back of your iPhone anytime to log expenses in seconds! ⚡
+
+---
+
+## 🔒 Privacy & Security
+
+Kharcha collects **zero** data. See our full [Privacy Policy](PRIVACY.md) for details on device permissions and local-first architecture.
 
 ---
 

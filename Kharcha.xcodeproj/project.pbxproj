@@ -51,6 +51,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7F1486EF8D8308B257EE3EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33CB455C722C5D9B3F07B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13545DD5F322F3D3A9F8ADD2;
+			remoteInfo = Kharcha;
+		};
 		C9484493923AC7F6FFB32605 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E33CB455C722C5D9B3F07B27 /* Project object */;
@@ -116,6 +123,7 @@
 		D6CC81E991B031C73A9AD2D5 /* Kharcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kharcha.entitlements; sourceTree = "<group>"; };
 		DBFE540D12B9EC4D15C08F79 /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
 		EA324E05D38CA492EB8BF469 /* KharchaShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchaShortcutsProvider.swift; sourceTree = "<group>"; };
+		F179CCEC531FD59D8AFB31E0 /* KharchaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KharchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F586E3717B3D17DE740114 /* FitnessWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWidget.swift; sourceTree = "<group>"; };
 		F9C39295E7053D5486FFAC43 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				505DDE3417C51062CAC57B2F /* Kharcha */,
+				59225544B17F04F1176E2808 /* KharchaTests */,
 				9D0A210C06A2C3FD6385245E /* KharchaWidgets */,
 				55B514D39C8736114DD063AC /* Products */,
 			);
@@ -196,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				82202E5095E40A6F67FE0B67 /* Kharcha.app */,
+				F179CCEC531FD59D8AFB31E0 /* KharchaTests.xctest */,
 				3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */,
 			);
 			name = Products;
@@ -209,6 +219,13 @@
 				D2A775FF0083FEA7DE94C45D /* QuickAddSheet.swift */,
 			);
 			path = Expense;
+			sourceTree = "<group>";
+		};
+		59225544B17F04F1176E2808 /* KharchaTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KharchaTests;
 			sourceTree = "<group>";
 		};
 		7A38E6C57CB09A2114A48E33 /* Shared */ = {
@@ -362,6 +379,24 @@
 			productReference = 3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		BFC4898482AC0A42A31320C1 /* KharchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7E95CBBBCD91FF21D99715 /* Build configuration list for PBXNativeTarget "KharchaTests" */;
+			buildPhases = (
+				F2410516E3080E22FCE16712 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700976FA2E4E8036E82E3D3A /* PBXTargetDependency */,
+			);
+			name = KharchaTests;
+			packageProductDependencies = (
+			);
+			productName = KharchaTests;
+			productReference = F179CCEC531FD59D8AFB31E0 /* KharchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -369,7 +404,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 				};
 			};
@@ -389,6 +424,7 @@
 			targets = (
 				13545DD5F322F3D3A9F8ADD2 /* Kharcha */,
 				895162EBA4871DC0CE4A2892 /* KharchaWidgets */,
+				BFC4898482AC0A42A31320C1 /* KharchaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -458,6 +494,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2410516E3080E22FCE16712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -465,6 +508,11 @@
 			isa = PBXTargetDependency;
 			target = 895162EBA4871DC0CE4A2892 /* KharchaWidgets */;
 			targetProxy = C9484493923AC7F6FFB32605 /* PBXContainerItemProxy */;
+		};
+		700976FA2E4E8036E82E3D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13545DD5F322F3D3A9F8ADD2 /* Kharcha */;
+			targetProxy = 7F1486EF8D8308B257EE3EA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -549,6 +597,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		575B92D8C12162559B57476A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kharcha.app/Kharcha";
+			};
+			name = Debug;
 		};
 		5EC4F2473FDCB38F1FB547F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -690,6 +756,24 @@
 			};
 			name = Debug;
 		};
+		D2C3C7A7E5C59B71A9CED161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kharcha.app/Kharcha";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -707,6 +791,15 @@
 			buildConfigurations = (
 				6E18BD435373AF82FBD4860F /* Debug */,
 				3233D7A55F907897FCBB6174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA7E95CBBBCD91FF21D99715 /* Build configuration list for PBXNativeTarget "KharchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575B92D8C12162559B57476A /* Debug */,
+				D2C3C7A7E5C59B71A9CED161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
