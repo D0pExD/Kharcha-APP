@@ -1,0 +1,31 @@
+# Xcode & Apple OS
+.DS_Store
+*/.DS_Store
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+UserInterfaceState.xcuserstate
+*.xcuserdatad
+
+# Build & Derived Data
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods & Carthage
+Pods/
+Carthage/Build/
+
+# Local configuration & environment
+*.local
+.env
+.env.*
+scratch/

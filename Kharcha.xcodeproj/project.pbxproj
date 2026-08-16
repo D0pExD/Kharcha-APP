@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013B614DBAA5C13BFD55DDAF /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010CFFF88A7594D0F1AD3755 /* SharedComponents.swift */; };
+		08520D8910564F69F6D1F5E2 /* EditExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CCFEE79DA049879ED0FD9 /* EditExpenseSheet.swift */; };
+		126AE23B89F50DC56426F2CC /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E3D5E5881254849794460 /* ExpenseDetailView.swift */; };
+		22727BAF298C24A6E58DC629 /* KharchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94479C8C6E01A22A6320CBCD /* KharchaApp.swift */; };
+		2774ADB22BFE5EE2B9EB500B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF81EB8C00201ECB97953A5F /* ContentView.swift */; };
+		398B9215A464A2CB51BEACE9 /* DesiMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C34D841D264C7E5021FE2 /* DesiMessages.swift */; };
+		39B97221812AA9ED0F9BC073 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD893FD4541CD4146FF62D /* OnboardingView.swift */; };
+		3C898ED8A730BA8CC53BB868 /* EditProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF87E603E7A6E8559474BDE /* EditProfileSheet.swift */; };
+		3CE32EAE372A9AF64932744C /* FitnessWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F586E3717B3D17DE740114 /* FitnessWidget.swift */; };
+		3DA96B37289383C0DA257DB5 /* ExpenseAuditLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8BB19549C6F3175ABB24A /* ExpenseAuditLog.swift */; };
+		3F3F93D488CA389A2DD0A840 /* CategoryManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9595ED3B278AB91C9BCB0 /* CategoryManagerView.swift */; };
+		4257F01604C74007CAFD58A9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9DCE9CE814A651FE632D4C /* SettingsView.swift */; };
+		449A3FD627B1926DF5EDA663 /* WebhookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C0D89906F609D0C57D578 /* WebhookService.swift */; };
+		45B329BD7C5C9402EF663847 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E67A1FF9A8AE0479A36DD7 /* Expense.swift */; };
+		45CA206D9D46F84E0B2B00DC /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0646E3278206A485CF067 /* FitnessView.swift */; };
+		4C1BF6BEA5E0EE754FF3A4B8 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF85811F3DBF2D5F8A8BFD7 /* HistoryView.swift */; };
+		4DCBECA7578E2A4326A39D28 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719139BD4B71A30C4FEF26EE /* BudgetView.swift */; };
+		58CBFEA6116633F1BCA29821 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F13F471A3C9C457629F7A7 /* LocationManager.swift */; };
+		655A9377CBDACC482EA4EB14 /* WaterIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3F5157F272DAD6C49811E /* WaterIntake.swift */; };
+		6A36A44F3312262303B847DC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43EF7DD6D9DA203100B0971 /* Category.swift */; };
+		6E54FA4CD761E04C82944246 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9843CE8856A2F5B79228B1D /* DashboardView.swift */; };
+		8006BFAEAD7A9C207E0978FC /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E29602AD01746F320CA739 /* CSVExporter.swift */; };
+		80F1933CFD1DF95DB50BA8E2 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F634E3381EBA4A6083D27 /* TimetableView.swift */; };
+		8CE0C2EC7677C36322B9165B /* KharchaWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B57138F33CA1EC37FD1BC63 /* QuickAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A775FF0083FEA7DE94C45D /* QuickAddSheet.swift */; };
+		9E804CBE5F71E7B6DD86B777 /* KharchaWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD65BBEAE8BCA7E1A08350 /* KharchaWidgetsBundle.swift */; };
+		9FE044BD9B69F833A9E68605 /* LogExpenseIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED74BF49F49BF7A2DCD7C55 /* LogExpenseIntent.swift */; };
+		A5B622CA3987F1231CFD7B8C /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C39295E7053D5486FFAC43 /* Budget.swift */; };
+		B53CE93B0A097B7609DD5375 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314760C23EA428E0E423FC38 /* CameraView.swift */; };
+		C58E093AD325DD15D2A34071 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE540D12B9EC4D15C08F79 /* DateFormatters.swift */; };
+		C75FF28DE51F5E17390AAFE7 /* BackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E308FE727DAFD2487952A5D /* BackupManager.swift */; };
+		CEE823023AE59BEECF57DB54 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D666CCCBC840ADA5EA6348F /* PhoneValidator.swift */; };
+		D08088063AB753BFDC48B673 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61134759D9115391156CCD9E /* UserProfile.swift */; };
+		D0A576BBF8751B6B62EF2D58 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9839EE5BF24C19EAAC0E6 /* HealthKitManager.swift */; };
+		D32F7FB9BF96CF43A9D3AEFB /* ExpenseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F2713AA4F240F9AA9F198 /* ExpenseWidget.swift */; };
+		D5F669A62A62C79B35CC1A62 /* KharchaShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA324E05D38CA492EB8BF469 /* KharchaShortcutsProvider.swift */; };
+		DB106C5D12036E5B3E4C5128 /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C57756834FD2E5588E6559 /* ClassSchedule.swift */; };
+		DC61641271CE86356D4BB1D9 /* WidgetDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768EC0C9E83B3051E4D9887 /* WidgetDataManager.swift */; };
+		DF924EAD4B82015F7AECDE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B459E2AB668734680F7FA /* Assets.xcassets */; };
+		E69087F7312C05EEC8F2CEE4 /* WidgetDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768EC0C9E83B3051E4D9887 /* WidgetDataManager.swift */; };
+		F0FE02B43579A509DC59034B /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB3FFD0DA1490E849DE5405 /* LocalizationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9484493923AC7F6FFB32605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33CB455C722C5D9B3F07B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895162EBA4871DC0CE4A2892;
+			remoteInfo = KharchaWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		414C4AA94A9D02585AE382BD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CE0C2EC7677C36322B9165B /* KharchaWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		010CFFF88A7594D0F1AD3755 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		1BE0646E3278206A485CF067 /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		1D666CCCBC840ADA5EA6348F /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		200C0D89906F609D0C57D578 /* WebhookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookService.swift; sourceTree = "<group>"; };
+		2768EC0C9E83B3051E4D9887 /* WidgetDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataManager.swift; sourceTree = "<group>"; };
+		2C4B459E2AB668734680F7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0616F6D3928D306E375104 /* KharchaWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KharchaWidgets.entitlements; sourceTree = "<group>"; };
+		314760C23EA428E0E423FC38 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3B3F2713AA4F240F9AA9F198 /* ExpenseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidget.swift; sourceTree = "<group>"; };
+		3CB9595ED3B278AB91C9BCB0 /* CategoryManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagerView.swift; sourceTree = "<group>"; };
+		3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = KharchaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C57756834FD2E5588E6559 /* ClassSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
+		5BC8BB19549C6F3175ABB24A /* ExpenseAuditLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAuditLog.swift; sourceTree = "<group>"; };
+		5E308FE727DAFD2487952A5D /* BackupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupManager.swift; sourceTree = "<group>"; };
+		61134759D9115391156CCD9E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		6B9DCE9CE814A651FE632D4C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6ED74BF49F49BF7A2DCD7C55 /* LogExpenseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogExpenseIntent.swift; sourceTree = "<group>"; };
+		6EF87E603E7A6E8559474BDE /* EditProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileSheet.swift; sourceTree = "<group>"; };
+		719139BD4B71A30C4FEF26EE /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		7A3E3D5E5881254849794460 /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
+		7D6C34D841D264C7E5021FE2 /* DesiMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiMessages.swift; sourceTree = "<group>"; };
+		82202E5095E40A6F67FE0B67 /* Kharcha.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Kharcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E67A1FF9A8AE0479A36DD7 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		8AA9839EE5BF24C19EAAC0E6 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		8CB3FFD0DA1490E849DE5405 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		94479C8C6E01A22A6320CBCD /* KharchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchaApp.swift; sourceTree = "<group>"; };
+		ABA3F5157F272DAD6C49811E /* WaterIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntake.swift; sourceTree = "<group>"; };
+		AEF85811F3DBF2D5F8A8BFD7 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B0E29602AD01746F320CA739 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		B43EF7DD6D9DA203100B0971 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BDBD65BBEAE8BCA7E1A08350 /* KharchaWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchaWidgetsBundle.swift; sourceTree = "<group>"; };
+		C9843CE8856A2F5B79228B1D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CBAD893FD4541CD4146FF62D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CF81EB8C00201ECB97953A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2A775FF0083FEA7DE94C45D /* QuickAddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddSheet.swift; sourceTree = "<group>"; };
+		D39F634E3381EBA4A6083D27 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		D44CCFEE79DA049879ED0FD9 /* EditExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseSheet.swift; sourceTree = "<group>"; };
+		D4F13F471A3C9C457629F7A7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D6CC81E991B031C73A9AD2D5 /* Kharcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kharcha.entitlements; sourceTree = "<group>"; };
+		DBFE540D12B9EC4D15C08F79 /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		EA324E05D38CA492EB8BF469 /* KharchaShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KharchaShortcutsProvider.swift; sourceTree = "<group>"; };
+		F7F586E3717B3D17DE740114 /* FitnessWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWidget.swift; sourceTree = "<group>"; };
+		F9C39295E7053D5486FFAC43 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E899B8630243AC97E83EABC /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				EA324E05D38CA492EB8BF469 /* KharchaShortcutsProvider.swift */,
+				6ED74BF49F49BF7A2DCD7C55 /* LogExpenseIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		1047968AA68E02962BA35230 = {
+			isa = PBXGroup;
+			children = (
+				505DDE3417C51062CAC57B2F /* Kharcha */,
+				9D0A210C06A2C3FD6385245E /* KharchaWidgets */,
+				55B514D39C8736114DD063AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C44A2ADD9E986E89CE1F1B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6EF87E603E7A6E8559474BDE /* EditProfileSheet.swift */,
+				6B9DCE9CE814A651FE632D4C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3171D05B89FE9A39D222F6BA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3CB9595ED3B278AB91C9BCB0 /* CategoryManagerView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4BD2E2563180979305D46D35 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				D39F634E3381EBA4A6083D27 /* TimetableView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		4D622FEB2179AF1079DBEC4E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E308FE727DAFD2487952A5D /* BackupManager.swift */,
+				B0E29602AD01746F320CA739 /* CSVExporter.swift */,
+				8AA9839EE5BF24C19EAAC0E6 /* HealthKitManager.swift */,
+				D4F13F471A3C9C457629F7A7 /* LocationManager.swift */,
+				200C0D89906F609D0C57D578 /* WebhookService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		505DDE3417C51062CAC57B2F /* Kharcha */ = {
+			isa = PBXGroup;
+			children = (
+				0E899B8630243AC97E83EABC /* Intents */,
+				A6E88E103AE995CFAC34A9A9 /* Models */,
+				FB8FD36F02A54FD9943CE6E3 /* Resources */,
+				4D622FEB2179AF1079DBEC4E /* Services */,
+				B407800B33CEA10B666FC681 /* Utilities */,
+				F3106571463FD019691ED560 /* Views */,
+				CF81EB8C00201ECB97953A5F /* ContentView.swift */,
+				D6CC81E991B031C73A9AD2D5 /* Kharcha.entitlements */,
+				94479C8C6E01A22A6320CBCD /* KharchaApp.swift */,
+			);
+			path = Kharcha;
+			sourceTree = "<group>";
+		};
+		55B514D39C8736114DD063AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82202E5095E40A6F67FE0B67 /* Kharcha.app */,
+				3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582914EEE92B26EE51824516 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				D44CCFEE79DA049879ED0FD9 /* EditExpenseSheet.swift */,
+				7A3E3D5E5881254849794460 /* ExpenseDetailView.swift */,
+				D2A775FF0083FEA7DE94C45D /* QuickAddSheet.swift */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		7A38E6C57CB09A2114A48E33 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				314760C23EA428E0E423FC38 /* CameraView.swift */,
+				010CFFF88A7594D0F1AD3755 /* SharedComponents.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		969E785120C5999A620EB576 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				1BE0646E3278206A485CF067 /* FitnessView.swift */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		9D0A210C06A2C3FD6385245E /* KharchaWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F2713AA4F240F9AA9F198 /* ExpenseWidget.swift */,
+				F7F586E3717B3D17DE740114 /* FitnessWidget.swift */,
+				2D0616F6D3928D306E375104 /* KharchaWidgets.entitlements */,
+				BDBD65BBEAE8BCA7E1A08350 /* KharchaWidgetsBundle.swift */,
+			);
+			path = KharchaWidgets;
+			sourceTree = "<group>";
+		};
+		A521472D5D3B266B8F6F5E30 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD893FD4541CD4146FF62D /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A6E88E103AE995CFAC34A9A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9C39295E7053D5486FFAC43 /* Budget.swift */,
+				B43EF7DD6D9DA203100B0971 /* Category.swift */,
+				44C57756834FD2E5588E6559 /* ClassSchedule.swift */,
+				86E67A1FF9A8AE0479A36DD7 /* Expense.swift */,
+				5BC8BB19549C6F3175ABB24A /* ExpenseAuditLog.swift */,
+				61134759D9115391156CCD9E /* UserProfile.swift */,
+				ABA3F5157F272DAD6C49811E /* WaterIntake.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B407800B33CEA10B666FC681 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE540D12B9EC4D15C08F79 /* DateFormatters.swift */,
+				7D6C34D841D264C7E5021FE2 /* DesiMessages.swift */,
+				8CB3FFD0DA1490E849DE5405 /* LocalizationManager.swift */,
+				1D666CCCBC840ADA5EA6348F /* PhoneValidator.swift */,
+				2768EC0C9E83B3051E4D9887 /* WidgetDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BC3662D8C91B9FA4FE0B4246 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				719139BD4B71A30C4FEF26EE /* BudgetView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		C3271C2A479B4B78DAA8F02D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AEF85811F3DBF2D5F8A8BFD7 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		DADC0E2E9031285368F7966C /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C9843CE8856A2F5B79228B1D /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F3106571463FD019691ED560 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC3662D8C91B9FA4FE0B4246 /* Budget */,
+				3171D05B89FE9A39D222F6BA /* Categories */,
+				DADC0E2E9031285368F7966C /* Dashboard */,
+				582914EEE92B26EE51824516 /* Expense */,
+				969E785120C5999A620EB576 /* Fitness */,
+				C3271C2A479B4B78DAA8F02D /* History */,
+				A521472D5D3B266B8F6F5E30 /* Onboarding */,
+				4BD2E2563180979305D46D35 /* Schedule */,
+				10C44A2ADD9E986E89CE1F1B /* Settings */,
+				7A38E6C57CB09A2114A48E33 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB8FD36F02A54FD9943CE6E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B459E2AB668734680F7FA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13545DD5F322F3D3A9F8ADD2 /* Kharcha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E559125D8869CECA9B8027ED /* Build configuration list for PBXNativeTarget "Kharcha" */;
+			buildPhases = (
+				7C41E102D2216236C41FA6E6 /* Sources */,
+				267C3F21C7A6B21D841AD626 /* Resources */,
+				414C4AA94A9D02585AE382BD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A513D8BC11DCC188AFAA83 /* PBXTargetDependency */,
+			);
+			name = Kharcha;
+			packageProductDependencies = (
+			);
+			productName = Kharcha;
+			productReference = 82202E5095E40A6F67FE0B67 /* Kharcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895162EBA4871DC0CE4A2892 /* KharchaWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147538CC69B9DAA76895B5BB /* Build configuration list for PBXNativeTarget "KharchaWidgets" */;
+			buildPhases = (
+				D0C9F974F74FD4B0153F7FB9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KharchaWidgets;
+			packageProductDependencies = (
+			);
+			productName = KharchaWidgets;
+			productReference = 3E100F8F87BB24E6C24137BF /* KharchaWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33CB455C722C5D9B3F07B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 9F66A4359EC074B15CF69312 /* Build configuration list for PBXProject "Kharcha" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1047968AA68E02962BA35230;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55B514D39C8736114DD063AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13545DD5F322F3D3A9F8ADD2 /* Kharcha */,
+				895162EBA4871DC0CE4A2892 /* KharchaWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267C3F21C7A6B21D841AD626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF924EAD4B82015F7AECDE91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C41E102D2216236C41FA6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75FF28DE51F5E17390AAFE7 /* BackupManager.swift in Sources */,
+				A5B622CA3987F1231CFD7B8C /* Budget.swift in Sources */,
+				4DCBECA7578E2A4326A39D28 /* BudgetView.swift in Sources */,
+				8006BFAEAD7A9C207E0978FC /* CSVExporter.swift in Sources */,
+				B53CE93B0A097B7609DD5375 /* CameraView.swift in Sources */,
+				6A36A44F3312262303B847DC /* Category.swift in Sources */,
+				3F3F93D488CA389A2DD0A840 /* CategoryManagerView.swift in Sources */,
+				DB106C5D12036E5B3E4C5128 /* ClassSchedule.swift in Sources */,
+				2774ADB22BFE5EE2B9EB500B /* ContentView.swift in Sources */,
+				6E54FA4CD761E04C82944246 /* DashboardView.swift in Sources */,
+				C58E093AD325DD15D2A34071 /* DateFormatters.swift in Sources */,
+				398B9215A464A2CB51BEACE9 /* DesiMessages.swift in Sources */,
+				08520D8910564F69F6D1F5E2 /* EditExpenseSheet.swift in Sources */,
+				3C898ED8A730BA8CC53BB868 /* EditProfileSheet.swift in Sources */,
+				45B329BD7C5C9402EF663847 /* Expense.swift in Sources */,
+				3DA96B37289383C0DA257DB5 /* ExpenseAuditLog.swift in Sources */,
+				126AE23B89F50DC56426F2CC /* ExpenseDetailView.swift in Sources */,
+				45CA206D9D46F84E0B2B00DC /* FitnessView.swift in Sources */,
+				D0A576BBF8751B6B62EF2D58 /* HealthKitManager.swift in Sources */,
+				4C1BF6BEA5E0EE754FF3A4B8 /* HistoryView.swift in Sources */,
+				22727BAF298C24A6E58DC629 /* KharchaApp.swift in Sources */,
+				D5F669A62A62C79B35CC1A62 /* KharchaShortcutsProvider.swift in Sources */,
+				F0FE02B43579A509DC59034B /* LocalizationManager.swift in Sources */,
+				58CBFEA6116633F1BCA29821 /* LocationManager.swift in Sources */,
+				9FE044BD9B69F833A9E68605 /* LogExpenseIntent.swift in Sources */,
+				39B97221812AA9ED0F9BC073 /* OnboardingView.swift in Sources */,
+				CEE823023AE59BEECF57DB54 /* PhoneValidator.swift in Sources */,
+				9B57138F33CA1EC37FD1BC63 /* QuickAddSheet.swift in Sources */,
+				4257F01604C74007CAFD58A9 /* SettingsView.swift in Sources */,
+				013B614DBAA5C13BFD55DDAF /* SharedComponents.swift in Sources */,
+				80F1933CFD1DF95DB50BA8E2 /* TimetableView.swift in Sources */,
+				D08088063AB753BFDC48B673 /* UserProfile.swift in Sources */,
+				655A9377CBDACC482EA4EB14 /* WaterIntake.swift in Sources */,
+				449A3FD627B1926DF5EDA663 /* WebhookService.swift in Sources */,
+				DC61641271CE86356D4BB1D9 /* WidgetDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C9F974F74FD4B0153F7FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F7FB9BF96CF43A9D3AEFB /* ExpenseWidget.swift in Sources */,
+				3CE32EAE372A9AF64932744C /* FitnessWidget.swift in Sources */,
+				9E804CBE5F71E7B6DD86B777 /* KharchaWidgetsBundle.swift in Sources */,
+				E69087F7312C05EEC8F2CEE4 /* WidgetDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A513D8BC11DCC188AFAA83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895162EBA4871DC0CE4A2892 /* KharchaWidgets */;
+			targetProxy = C9484493923AC7F6FFB32605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3233D7A55F907897FCBB6174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kharcha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		385F5C5308F6960583B03474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KharchaWidgets/KharchaWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KharchaWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kharcha Widgets";
+				INFOPLIST_KEY_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC4F2473FDCB38F1FB547F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kharcha/Kharcha.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of receipts and bills";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read your step count to show fitness progress";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Kharcha uses your location to tag where you spent money";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Attach receipt photos to your expenses";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B28D5C85C9B1768C901D19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kharcha/Kharcha.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of receipts and bills";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read your step count to show fitness progress";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Kharcha uses your location to tag where you spent money";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Attach receipt photos to your expenses";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E18BD435373AF82FBD4860F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kharcha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		BB5F499A3E44D69D2A248A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KharchaWidgets/KharchaWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KharchaWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kharcha Widgets";
+				INFOPLIST_KEY_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kharchabsdk.app.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147538CC69B9DAA76895B5BB /* Build configuration list for PBXNativeTarget "KharchaWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5F499A3E44D69D2A248A19 /* Debug */,
+				385F5C5308F6960583B03474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F66A4359EC074B15CF69312 /* Build configuration list for PBXProject "Kharcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18BD435373AF82FBD4860F /* Debug */,
+				3233D7A55F907897FCBB6174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E559125D8869CECA9B8027ED /* Build configuration list for PBXNativeTarget "Kharcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC4F2473FDCB38F1FB547F1 /* Debug */,
+				6B28D5C85C9B1768C901D19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33CB455C722C5D9B3F07B27 /* Project object */;
+}

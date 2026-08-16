@@ -1,0 +1,79 @@
+name: Kharcha
+options:
+  bundleIdPrefix: com.kharcha
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: "Kharcha"
+    INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.finance"
+
+targets:
+  Kharcha:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Kharcha
+        type: group
+    dependencies:
+      - target: KharchaWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kharchabsdk.app
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Kharcha uses your location to tag where you spent money"
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Attach receipt photos to your expenses"
+        INFOPLIST_KEY_NSCameraUsageDescription: "Take photos of receipts and bills"
+        INFOPLIST_KEY_NSHealthShareUsageDescription: "Read your step count to show fitness progress"
+        CODE_SIGN_ENTITLEMENTS: Kharcha/Kharcha.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_EMIT_LOC_STRINGS: YES
+    entitlements:
+      path: Kharcha/Kharcha.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access:
+          - health-records
+        com.apple.security.application-groups:
+          - group.com.kharchabsdk.app
+
+  KharchaWidgets:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: KharchaWidgets
+        type: group
+        excludes:
+          - "Info.plist"
+      - path: Kharcha/Utilities/WidgetDataManager.swift
+    info:
+      path: KharchaWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: "Kharcha Widgets"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kharchabsdk.app.widgets
+        CODE_SIGN_ENTITLEMENTS: KharchaWidgets/KharchaWidgets.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Kharcha Widgets"
+        INFOPLIST_KEY_NSExtensionPointIdentifier: "com.apple.widgetkit-extension"
+    entitlements:
+      path: KharchaWidgets/KharchaWidgets.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.kharchabsdk.app
