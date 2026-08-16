@@ -1,9 +1,9 @@
 name: Kharcha
 options:
-  bundleIdPrefix: com.kharcha
+  bundleIdPrefix: com.kharchabsdk
   deploymentTarget:
     iOS: "17.0"
-  xcodeVersion: "16.0"
+  xcodeVersion: "15.0"
   createIntermediateGroups: true
   groupSortPosition: top
 
@@ -44,8 +44,6 @@ targets:
       path: Kharcha/Kharcha.entitlements
       properties:
         com.apple.developer.healthkit: true
-        com.apple.developer.healthkit.access:
-          - health-records
         com.apple.security.application-groups:
           - group.com.kharchabsdk.app
 
@@ -77,3 +75,17 @@ targets:
       properties:
         com.apple.security.application-groups:
           - group.com.kharchabsdk.app
+
+  KharchaTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: KharchaTests
+        type: group
+    dependencies:
+      - target: Kharcha
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kharchabsdk.app.tests
+        GENERATE_INFOPLIST_FILE: YES
